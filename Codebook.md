@@ -9,7 +9,9 @@ The original measurements are in the X_train and X_test data sets. These have 56
 The script first combines the original training and test data sets to produce one set of data each for measrements, activity, and subjects:
 
 X_train/X_test --> X (measurements)
+
 y_train/y_test --> y (activities)
+
 subject_train/subject_test --> subject (subjects identification)
 
 In an attempt to present a summarised data set, the script then extracts the estimated means and standard deviations from the measurements data set X, by looking for column names containing the text "mean()" and "std()".   This results in 66 columns of interest.
@@ -41,11 +43,17 @@ Column 1
 Column 2
 ========
 "ActivityType" - the activity type as specified in the original data set:
+
 1 WALKING
+
 2 WALKING_UPSTAIRS
+
 3 WALKING_DOWNSTAIRS
+
 4 SITTING
+
 5 STANDING
+
 6 LAYING
 
 Columns 3 to 68 (Please refer to original data set's "features_info.txt" file for detailed descriptions)
@@ -53,14 +61,23 @@ Columns 3 to 68 (Please refer to original data set's "features_info.txt" file fo
 
 "tBodyAcc-mean()-X" (This is the mean of the "tBodyAcc-mean()-X" values for a subject/activity pair)
 "tBodyAcc-mean()-Y"
+
 "tBodyAcc-mean()-Z"
+
 "tGravityAcc-mean()-X"
+
 "tGravityAcc-mean()-Y"
+
 "tGravityAcc-mean()-Z"
+
 "tBodyAccJerk-mean()-X"      
+
 "tBodyAccJerk-mean()-Y"
+
 "tBodyAccJerk-mean()-Z"
+
 "tBodyGyro-mean()-X"         
+
 "tBodyGyro-mean()-Y" 
 "tBodyGyroJerk-mean()-X"     
 "tBodyGyroJerk-mean()-Y"
