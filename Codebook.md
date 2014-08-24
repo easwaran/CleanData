@@ -59,7 +59,8 @@ Column 2
 Columns 3 to 68 (Please refer to original data set's "features_info.txt" file for detailed descriptions)
 ===============
 
-"tBodyAcc-mean()-X" (This is the mean of the "tBodyAcc-mean()-X" values for a subject/activity pair)
+"tBodyAcc-mean()-X" (This is the mean of the "tBodyAcc-mean()-X" values for a subject/activity pair - same comment applies to all the following variables)
+
 "tBodyAcc-mean()-Y"
 
 "tBodyAcc-mean()-Z"
