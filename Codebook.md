@@ -54,7 +54,7 @@ Columns 3 to 68 (Please refer to original data set's "features_info.txt" file fo
 "tBodyAcc-mean()-X" (This is the mean of the "tBodyAcc-mean()-X" values for a subject/activity pair)
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
-"tGravityAcc-mean()-X"       
+"tGravityAcc-mean()-X"
 "tGravityAcc-mean()-Y"
 "tGravityAcc-mean()-Z"
 "tBodyAccJerk-mean()-X"      
