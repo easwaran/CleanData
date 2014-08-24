@@ -30,7 +30,7 @@ Important
 For clarity, I have retained the original column names, although this is not strictly tidy according to class lectures. In addition, each column of data in the tidied data set is a mean for that subject for that type of activity. For example,"tBodyAcc-mean()-X" in the original data set describes a single measurement for a single subject for a single activity, whereas the same variable name in the tidied data set describes the mean of all estimated "tBodyAcc-mean()-X" values  for that  subject for that particular activity. This was deliberately done to avoid introducing 66 new variable names.
 
 
-The cleaned data set, XCleaned is a 180x68 dimensional table.
+The cleaned data set, XCleaned, is a 180x68-dimensional table.
 
 The 180 rows correspond to 6 activity types for each of the 30 subjects identified by numbers 1 through 30. The activity types are coded, as in the original data set, as shown below.
 
@@ -38,7 +38,7 @@ For each subject and each activity, there are 66 values (columns) representing t
 
 Column 1 
 ========
-"subject" - describes the subject identified as a integer (1 to 30)
+"subject" - describes the subject identified as an integer (1 to 30)
 
 Column 2
 ========
@@ -59,7 +59,7 @@ Column 2
 Columns 3 to 68 (Please refer to original data set's "features_info.txt" file for detailed descriptions)
 ===============
 
-"tBodyAcc-mean()-X" (This is the mean of the "tBodyAcc-mean()-X" values for a subject/activity pair - same comment applies to all the following variables)
+"tBodyAcc-mean()-X"   (This is the mean of the "tBodyAcc-mean()-X" values for a subject/activity pair - same comment applies to all the following variables)
 
 "tBodyAcc-mean()-Y"
 
@@ -124,37 +124,69 @@ Columns 3 to 68 (Please refer to original data set's "features_info.txt" file fo
 "fBodyBodyGyroJerkMag-mean()" 
 
 "tBodyAcc-std()-X"           
+
 "tBodyAcc-std()-Y"            
+
 "tBodyAcc-std()-Z"            
+
 "tGravityAcc-std()-X"        
+
 "tGravityAcc-std()-Y"         
+
 "tGravityAcc-std()-Z"         
+
 "tBodyAccJerk-std()-X"       
+
 "tBodyAccJerk-std()-Y"        
+
 "tBodyAccJerk-std()-Z"        
+
 "tBodyGyro-std()-X"          
+
 "tBodyGyro-std()-Y"           
+
 "tBodyGyro-std()-Z"           
+
 "tBodyGyroJerk-std()-X"      
+
 "tBodyGyroJerk-std()-Y"       
+
 "tBodyGyroJerk-std()-Z"       
+
 "tBodyAccMag-std()"          
+
 "tGravityAccMag-std()"        
+
 "tBodyAccJerkMag-std()"       
+
 "tBodyGyroMag-std()"         
+
 "tBodyGyroJerkMag-std()"      
+
 "fBodyAcc-std()-X"            
+
 "fBodyAcc-std()-Y"           
+
 "fBodyAcc-std()-Z"            
+
 "fBodyAccJerk-std()-X"        
+
 "fBodyAccJerk-std()-Y"       
+
 "fBodyAccJerk-std()-Z"        
+
 "fBodyGyro-std()-X"           
+
 "fBodyGyro-std()-Y"          
+
 "fBodyGyro-std()-Z"           
+
 "fBodyAccMag-std()"           
+
 "fBodyBodyAccJerkMag-std()"  
+
 "fBodyBodyGyroMag-std()"      
+
 "fBodyBodyGyroJerkMag-std()" 
 
 
