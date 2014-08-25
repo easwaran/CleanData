@@ -19,7 +19,7 @@ In an attempt to present a summarised data set, the script then extracts the est
 Then the script gatheres these 66 columns into a new data set, with subject and activity type information added in, producing a 68-column data set.
 
 
-The tidy data set, XCleand, is produced from this new data set by calculating the means of each variable grouped by subject and activity type.
+The tidy data set, XCleaned, is produced from this new data set by calculating the means of each variable grouped by subject and activity type.
 
 The cleaned/tidied data set, XCleaned
 =====================================
